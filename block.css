@@ -1,0 +1,39 @@
+.body{
+
+    height:100%;width:100%;
+}
+.row1{
+    display:inline-flex;
+    height:50%;width:100%;
+}
+.row2{
+    display:inline-flex;
+    height:50%;width:100%;
+}
+.block1 { 
+    display:inline-flex;
+    height:100%;width:50%;
+  }
+  .block2 {
+    display:inline-flex;
+    height:100%;width:50%;
+  }
+  .block3 {
+    display:inline-flex;
+    height:100%;width:50%;
+  }
+  .block4 {
+    
+    height:100%;width:50%;
+    
+  }
+  h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 400px;
+    text-align: center;
+    font-size: 100%;
+  }
+.img{
+    height:100%;width:100%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    form{
+        border: 3px solid blue;
+        padding: 10px;
+        display: inline-block;
+    }
+    section{
+        padding: 20px;
+    }
+    
+</style>
+  </head>
+  <body>
+    <section>
+    <h1>Feedback Form</h1>
+</section>
+    <form>
+    <section>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" minlength="3" maxlength="50" required>
+    </section>
+
+    <section>
+      <label for="portfolio">Portfolio:</label>
+      <input type="url" id="portfolio" name="portfolio" required>
+    </section>
+
+    <section>
+      <label for="favColor">Favourite Color:</label>
+      <select id="favColor" name="favColor">
+        <option value="pink">Red</option>
+        <option value="yellow">Blue</option>
+      </select>
+    </section>
+
+    <section>
+      <label for="likeness">How much do you like your favourite color?</label>
+      <input type="range" id="likeness" name="likeness" min="1" max="100">
+    </section>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>

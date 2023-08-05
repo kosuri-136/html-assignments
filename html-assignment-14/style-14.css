@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(218, 204, 204);
+}
+.card{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: white;
+    margin: 50px;
+   
+}
+.plant{
+     background-color: rgb(104, 201, 104);
+     width: 500px;
+}
+p{
+    margin-left: 50px;
+}
+h1{
+    margin-left: 50px;
+    text-align: center;
+}
+
+button{
+    background-color: rgb(104, 201, 104);
+    border-radius: 20px;
+    margin-left: 470px;
+  
+}
+img{
+    width: 300px;
+    height: 300px;
+}
